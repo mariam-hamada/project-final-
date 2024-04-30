@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style earth home.css">
+    <title>Earth</title>
+    <link rel="icon" type="image/x-icon" href="imgs/favicon.ico">
+</head>
+<body>
+    <section class="showcase ">
+        <header>
+           <h2 class="logo">Earth</h2>
+           <div class="toggle"></div>
+        </header>
+        <video src="imgs/video spare (1) (1).mp4" type="video/mp4" muted loop autoplay> </video>
+         <div class="overlay"></div>
+         <div class="text">
+            <h2>Earth Kids</h2>
+            <p>Earth Kids combines fun facts, amazing creatures, your favourite faces and a whole load of cool stuff about our planet.</p>
+         <a href="earth main.html">Explore</a>
+        </div>
+        <ul class="social">
+            <li><a href="https://www.facebook.com/earth"><img src="imgs/facebook.png" alt="facebook" height="50 px" width="50px" target="_blank"></a></li>
+            <li><a href="https://www.instagram.com/earth/"><img src="imgs/instagram.png" alt="instagram" height="50 px" width="50px" target="_blank"></a></li>
+            <li><a href="https://twitter.com/earth?lang=en"><img src="imgs/twitter (2).png" alt="twitter" eight="50 px" width="50px" target="_blank"></a></li>
+        </ul>
+    </section>
+   
+    <div class="menu">
+        <ul>
+            <li><a href="earth main.html" >Main page</a></li>
+            <li><a href="earth photos.html" target="_blank">photos</a></li>
+          <li><a href="Earth video.html" target="_blank">videos</a></li>
+        </ul>
+    </div>
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+        menuToggle.addEventListener('click',()=>{
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+    </script>
+</body>
+</html>

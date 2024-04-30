@@ -1,0 +1,211 @@
+.saturn {
+    background-image: url("../imgs/sarutnbak-gr.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main-header {
+    position: fixid;
+    width: 100%;
+    z-index: 3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    height: 100px;
+    padding: 0 30px;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+    transition: font-size 0.3s;
+    font-size: x-large;
+    margin: 30px 0 0 35px
+}
+
+.logo a:hover {
+    font-size: xx-large;
+}
+
+.desktop-main-menu {
+    margin-right: 60px;
+}
+
+.desktop-main-menu ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.desktop-main-menu ul li {
+    position: relative;
+    margin-right: 30px;
+    padding-bottom: 2px;
+}
+
+.desktop-main-menu ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.4s;
+}
+
+.desktop-main-menu ul li a:hover {
+    color: gray;
+}
+
+.desktop-main-menu ul li a::after {
+    /* content ; */
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: #fff;
+    transform: scaleX(0);
+    transition: transform 0.2s;
+}
+
+.desktop-main-menu ul li a:hover::after {
+    transform: scaleX(1);
+}
+
+
+h1 {
+    color: gold;
+    text-transform: uppercase;
+    font-family: cursive;
+    margin: 300px 0 200px 900px;
+}
+
+#img-sat {
+    margin: 40px 0 0 30px;
+}
+
+.list-sat {
+    color: white;
+    margin: -55vh 0 0 1000px;
+    font-size: xxx-large;
+}
+
+.info-sat {
+    margin: 400px 800px 0 0;
+    color: white;
+    text-align: left;
+    font-size: x-large;
+    width: 35%;
+}
+
+.p-sat {
+    text-shadow: 2px 2px 10px rgb(255, 255, 255);
+}
+
+.vid-sat {
+   /* margin: -700px 0 0 1150px;
+    font-size: xxs-large;
+    font-family: fantasy;
+    margin-left: 45%;*/
+    font-size: xxs-large;
+    font-family: fantasy;
+    width: 45%;
+    margin-left: 42%;
+    margin-top: -700px;
+}
+
+.vid-sat p {
+    color: gold;
+    margin: 0 0 40px 370px;
+    font-size: xx-large;
+}
+
+.audio-sat {
+    margin: 250px 0 0 20px;
+}
+
+.audio-sat p {
+    color: gold;
+    font-size:x-large ;
+    margin: 150px 900px 30px 0;
+    /* margin-right: 800px;
+    margin-bottom: 100px;
+    margin-top: 20px; */
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    width: 35%;
+    margin-right: 3%;
+    margin-bottom: 50px;
+    margin-top: 400px;
+    margin-left: 0%;
+}
+
+.audio-sat audio {
+    margin: 0 0 0 45px;
+    width: 400px;
+}
+#last-sat .p-sat{
+    font-size: xx-large;
+    margin-left: 0%;
+}
+
+input[type="text"] {
+    color: white;
+    width: 400px;
+    height: 100px;
+    font-size: large;
+    background-color: darkgray;
+}
+
+#form-sat form {
+    margin: 30px 0 0 60px;
+ 
+}
+
+#form-sat p {
+    color: white;
+    font-size: xx-large;
+    font-family: cursive;
+    margin: 20px 0 0 65px;
+}
+
+#last-sat {
+    margin: -570px 70px 100px 900px;
+    color: white;
+    font-size: larger;
+    text-align: justify;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+}
+
+footer ul {
+    display: table;
+    list-style-type: none;
+    color: black;
+    display: flex;
+    /* creat a flex container  */
+    justify-content: center;
+    /* centers the content along the main axis, */
+    align-items: center;
+    /* property centers the content along the cross axis */
+}
+
+footer ul li {
+    margin-right: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 2.5;
+}
+
+footer ul li a {
+    color: white;
+    transition: color 0.6s;
+}
+
+footer ul li a:hover {
+    /* change the color of the link to gray when mouse come over it  */
+    color: gray;
+}

@@ -1,0 +1,409 @@
+body
+{
+    background-color:rgb(23, 25, 38);
+
+}
+
+.sec1 .top a
+{
+    position: relative;
+    bottom: 1060px;
+    font-weight: 600;
+    color: #f5f5e6ea;
+    text-shadow:2px 2px  rgba(67, 4, 185, 0.849);
+    padding: 100px 15px;
+    text-decoration: none;
+    font-size: 29px;
+    opacity: 0.9;
+    z-index: 2;
+}
+.sec1 .top a:hover
+{
+    opacity: 0.4;
+}
+#logo {
+    position: absolute;
+    width: 8.3%;
+    right: 10px;
+
+}
+.sec1
+{
+    position: relative;
+    height: 1064px;
+    width: 1880px;
+}
+.sec1 #f1 
+{
+    max-width: 100%;
+}
+.sec1 .heading
+{
+    position: relative;
+    bottom: 410px;
+    background-color: rgba(240, 248, 255, 0.219);
+    height: 200;
+    left: 260px;
+    width:min-content;
+    height: min-content;
+    border-radius: 18px;
+    border:solid 0.5px rgba(205, 215, 224, 0.205);
+}
+.sec1 pre
+{
+    font-size: 66px;
+    font-weight:980;
+    color: rgb(255, 255, 255);
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}  
+.sec1 #f2
+{
+    position: relative;
+    width: 1200px;
+    bottom: 1600px;
+    left: 400px;
+}
+.sec2
+{
+    position: relative;
+    height: 5000px;
+}
+.sec2 #im1
+{
+    position: relative;
+    width: 320px;
+    top: 30px;
+    left: 1460px;
+    border-radius: 20px;
+}
+.sec2 #h1
+{
+    position: static;
+    padding-left: 75vh;
+    color: rgb(52, 129, 160);
+    font-size: 50px;
+}
+.sec2 #p1
+{
+    margin-top: -340px;
+    margin-bottom: 300px;
+    position: static;
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 50px;
+    letter-spacing:2px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 40px;
+}
+
+.sec2 #im2
+{
+    position: relative;
+    width: 540px;
+    top: -150px;
+    left: 1180px;
+    border-radius: 10px;
+}
+.sec2 #h2
+{
+    position: static;
+    padding-left: 75vh;
+    padding-bottom: 200px;
+    color: rgb(52, 129, 160);
+    font-size: 50px;
+}
+.sec2 #p2
+{   margin-top: -670px;
+    margin-bottom: 100px;
+    position: static;
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 50px;
+    letter-spacing:2px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 40px;
+}
+.sec2 #h3
+{
+    position: static;
+    padding-left:75vh ;
+    padding-bottom: 700px;
+    color: rgb(52, 129, 160);
+    font-size: 50px;
+}
+
+.sec2 #im3
+{
+    width: 800px;
+    position: relative;
+    left: 500px;
+    top: -680px;
+    border-radius: 8px;
+}
+.sec2 #p3
+{
+    margin-top: -670px;
+    margin-bottom: 100px;
+    position: static;
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 50px;
+    letter-spacing:2px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 40px;
+}
+.sec2 #h4
+{
+    position: static;
+    padding-left:50vh ;
+    padding-bottom: 700px;
+    color: rgb(52, 129, 160);
+    font-size: 50px;
+}
+
+.sec2 .Ariel
+{
+    position: relative;
+    background-color: rgba(240, 248, 255, 0.555);
+    width: 900px;
+    height: 700px;
+    bottom: 600px;
+    left: 30px;
+    border-radius: 70px;
+}
+.sec2 h3
+{
+    text-align: center;
+    color: rgba(129, 36, 141, 0.904);
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    padding-top: 8px;
+}
+.sec2 .Ariel pre
+{
+    position: relative;
+    color: rgb(2, 27, 49);
+    font-size: 17px;
+    line-height: 50px;
+    letter-spacing:2px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    
+}
+.sec2 .Ariel img {
+    position: relative;
+    width: 60%;
+    opacity: 0.9;
+    padding-left: 200px;
+    bottom: 50px;
+}
+.sec2 .Titania
+{
+    position: relative;
+    background-color: rgba(240, 248, 255, 0.555);
+    width: 900px;
+    height: 700px;
+    bottom: 1335px;
+    left: 950px;
+    border-radius: 70px;
+}
+.sec2 .Titania pre
+{
+    position: relative;
+    color: rgb(2, 27, 49);
+    font-size: 17px;
+    line-height: 50px;
+    letter-spacing:2px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+.sec2 .Titania img
+{
+    position: relative;
+    width: 60%;
+    opacity: 0.9;
+    padding-left: 200px;
+}
+
+.sec2 .Oberon
+{
+    position: relative;
+    background-color: rgba(240, 248, 255, 0.555);
+    width: 900px;
+    height: 700px;
+    bottom: 1340px;
+    left: 30px;
+    border-radius: 70px;
+}
+.sec2 .Oberon pre
+{
+    position: relative;
+    color: rgb(2, 27, 49);
+    font-size: 17px;
+    line-height: 50px;
+    letter-spacing:2px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+.sec2 .Oberon img
+{
+    position: relative;
+    width: 60%;
+    opacity: 0.9;
+    padding-left: 200px;
+    bottom: 50px;
+
+}
+
+.sec2 .Umbriel
+{
+    
+    position: relative;
+    background-color: rgba(240, 248, 255, 0.555);
+    width: 900px;
+    height: 700px;
+    bottom: 770px;
+    left: 930px;
+    border-radius: 70px;
+}
+.sec2 .Umbriel pre
+{
+    position: relative;
+    color: rgb(2, 27, 49);
+    font-size: 17px;
+    line-height: 50px;
+    letter-spacing:2px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+.sec2 .Umbriel img
+{
+    position: relative;
+    top: 2px;
+}
+.sec2 #lolo
+{
+    position: relative;
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 50px;
+    letter-spacing:2px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 40px;
+    bottom: 700px;
+}
+.sec2 .vid
+{
+    position: relative;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    left: 500px;
+    bottom: 800px;
+    text-shadow:  2px 2px #ab5cec;   
+}
+.sec2 .video
+{
+    position: relative;
+    bottom: 800px;
+    left: 300px;
+    width: 500px;   
+}
+
+table {
+    position: relative;
+    font-family: arial, sans-serif;
+    font-weight: 600;
+    border-collapse: collapse;
+    width: 1200px;
+    height: 400px;
+    bottom: 580px;
+    left: 300px;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    color: #dddddd;
+    
+  }
+  
+  tr:nth-child(even) {
+    background-color: #9f3ec5b4;
+  }
+  #tabb
+  {
+    color: #ffffffb4 ;
+    position: relative;
+    left: 700px;
+    font-size: 35px;
+    bottom: 680px;
+  }
+  iframe
+  {
+    position: relative;
+    width: 1200px;
+    height: 700px;
+    bottom: 500px;
+    left: 300px;
+    border-radius: 40px;
+    border-color: rgba(20, 7, 68, 0.014);
+
+  }
+
+  .sec2 #bo
+{
+position: relative;
+top: 1470px;
+width: 9%;
+left: 10px;
+}
+.sec2 #bo:hover
+{
+    width: 12%;
+}
+.sec2 #ab
+{
+    position: relative;
+    top: 1400px;
+    color:rgb(211, 157, 40);
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 160px;
+    opacity: 1;
+    text-shadow: 2px 2px #ff0000;
+
+}
+.sec2 #boo
+{
+position: relative;
+top: 1200px;
+width: 9%;
+left: 1650px;
+}
+.sec2 #boo:hover
+{
+    width: 12%;
+}
+.sec2 #abb
+{
+    position: relative;
+    top: 1148px;
+    padding-left: 1400px;
+    color:rgb(211, 157, 40);
+    font-size: 35px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 160px;
+    opacity: 1;
+    text-shadow: 2px 2px #ff0000;
+
+}
+
+@media screen and (max-width: 768px) {
+    /* CSS rules for screens smaller than 768 pixels wide */
+}
+

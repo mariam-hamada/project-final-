@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Solar System for kids</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style-solar.css">
+        <link rel="shortcut icon" href="imgs/P.png" />
+        
+    </head>
+    <body>
+            <section class="sec1">
+                <div class="slideshow">
+                    <div class="mySlides">
+                      <div class="numbertext">1 / 3</div>
+                      <img src="imgs/s2.jpg">
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext">2 / 3</div>
+                      <img src="imgs/l7.png">
+                    </div>
+                    <div class="mySlides">
+                      <div class="numbertext">3 / 3</div>
+                      <img src="imgs/l4.png">
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)">❯</a>
+                    </div>
+                    <script>
+                        let slideIndex = 1;
+                        showSlides(slideIndex);
+                        
+                        function plusSlides(n) {
+                          showSlides(slideIndex += n);
+                        }
+                        
+                        function currentSlide(n) {
+                          showSlides(slideIndex = n);
+                        }
+                        
+                        function showSlides(n) {
+                          let i;
+                          let slides = document.getElementsByClassName("mySlides");
+                          let dots = document.getElementsByClassName("dot");
+                          if (n > slides.length) {slideIndex = 1}    
+                          if (n < 1) {slideIndex = slides.length}
+                          for (i = 0; i < slides.length; i++) {
+                            slides[i].style.display = "none";  
+                          }
+                          for (i = 0; i < dots.length; i++) {
+                            dots[i].className = dots[i].className.replace(" active", "");
+                          }
+                          slides[slideIndex-1].style.display = "block";  
+                          dots[slideIndex-1].className += " active";
+                        }
+                        </script>
+                    <br>
+                <img src="imgs/logo.png" alt="logo" id="logo">
+                <div class="top">
+                    <a href="main page.html"> Home </a>
+                    <a href="index.html"> kids Section </a>
+                    <a href="project.html"> Adult Section  </a>
+                    <a href="about.html" > About us </a >
+                </div>
+                <div class="travel">
+                    <h2>  Are you ready to travel <br><br><span> little Astronaut!!</span></h2>
+                    <p> This is the designated landing site for our rocket enabling us to gain further <br>
+                        knowledge about the solar system, encompassing <br>
+                        our magnificent planet!</p>
+                        <br><br><br><br>
+                        <hr>
+                </div>
+            </section>
+            <section class="sec2">
+
+                <div class="work"></div>
+                <h2> Our Solar System!</h2>
+                <div class="f1">
+                    <p>
+                        The formation of our solar system is estimated to have occurred <span style="color: rgb(224, 14, 14);"> 4.5 billion years ago</span>. But <em>what exactly constitutes the solar system?</em>
+                         It comprises of the sun, along with the eight primary planets namely Mars, Jupiter, Saturn, Uranus, Neptune, Venus, Earth, and Mars.
+                          Additionally, there are various other celestial bodies such as moons, comets, asteroids, dwarf planets, pebbles, and dust. 
+                          <span style="color: rgb(194, 24, 24);">The Solar System encompasses the Sun and all the smaller objects that revolve around it</span>. 
+                    </p>
+                    <img src="imgs/ja.jpg" alt="Solar Components">
+                </div >
+                
+                <div class="work2"></div>
+                <div class="f2">
+                    <h3>
+                        planets
+                    </h3>
+
+                    <p> All of the planets in the solar system orbit the sun. Mercury, Venus, Earth and Mars are called 'terrestrial planets'.
+                         They are mostly made of rock and metal. Jupiter, Saturn, Uranus and Neptune are called 'gas giants'.
+                         They are mostly composed of gas and they have rings. The smallest planet is Mercury and the biggest is Jupiter. 
+                         Neptune is the coldest and Venus is the hottest planet.
+                        </p>
+                    <img src="imgs/ss.jpg" alt="planets">
+                </div>  
+                <div class="work3"></div>
+                <div class="f3">
+                    <h3>
+                        Moons
+                    </h3>
+
+                    <p> Moons travel around planets. Earth has got just one moon, but there are at least 150 moons in our solar system.
+                         Jupiter and Saturn are the planets with the most - 53 confirmed moons each! Mercury and Venus have no moons at all. 
+                        </p>
+                    
+                </div>
+                <div class="work4"></div>
+                <div class="f4">
+                    <h3>
+                        stars
+                    </h3>
+
+                    <p>Stars are enormous balls of very hot gas. Our closest star is the sun, 
+                        and it's 150 million km away from planet Earth! Without the sun's energy, 
+                        there would be no life on Earth. 
+                        </p>
+                    
+                </div>
+                <h2 id="ve"> We reached the Last distenation before going again! </h2>
+                <div class="video">
+                <video controls autoplay muted>
+                    <source src="imgs/solar.mp4" type="video/mp4">
+                </video>
+            </div>
+            <a href="index.html"><img src="imgs/arrow.png" id="bo"></a>
+            <p id="ab">Back</p>
+            <a href="mecury kids.html"><img src="imgs/arrowgo.png" id="boo"></a>
+            <p id="abb">GO TO Mercury</p>
+            
+            </section>
+            <script>
+                changeImage();
+            </script>
+    </body>
+</html>

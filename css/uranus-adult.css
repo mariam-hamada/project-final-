@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=familjen+Grotesk:wght@400;600;700&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ body{
+    margin: 0%;
+    padding: 0%;
+
+
+
+}
+
+body {
+    font-family: 'familjen Grotesk', sans-serif;
+    background: #000;
+    color:#fff;
+}
+
+a {
+    text-decoration: none;
+    color:white ;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Header/Navbar */
+.main-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    height: 100px;
+    padding: 0 30px;
+}
+
+/*Logo*/
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.logo img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* desktop menu */
+.desktop-main-menu {
+    margin-right: 50px;
+}
+
+
+.desktop-main-menu ul {
+    display: flex;
+}
+
+.desktop-main-menu ul li {
+    position: relative;
+    margin-right: 20px;
+    padding-bottom: 2px;
+}
+
+/* men item bottom border */
+.desktop-main-menu ul li a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #fff;
+    transform: scaleX(0);
+    transition: transform 0.6s cubic-bezier(0.19, 1, 0.22,1);
+    transform-origin: right center;
+}
+
+.desktop-main-menu ul li a:hover::after {
+    transform: scaleX(1);
+    transform-origin: left center;
+    transition-duration: 0.4s;
+}
+
+/* sections */
+section {
+    position: relative;
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-transform: uppercase;
+
+}
+
+.section-inner {
+    position: absolute;
+    bottom: 200px;
+    left: 150px;
+    max-width: 560px;
+
+}
+
+
+
+.section-inner i {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+
+.section-inner-b i {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+
+/* background images */
+.sectionMY-a {
+    background-image: url('../imgs/WhatsApp Image 2024-04-21 at 00.10.54_a03b0fa9.jpg');
+}
+
+
+.sectionMY-B {
+    background-image: url('../imgs/uranus-background.jpeg');
+}
+
+.sectionMY-c {
+    background-image: url('../imgs/uranus-background.jpeg');
+}
+
+.sectionMY-d {
+    background-image: url('../imgs/uranus-background.jpeg');
+}
+
+.btn {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    min-width: 130px;
+
+}
+
+.btn .hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    color: #000;
+    z-index: -1;
+}
+
+.scroll-arrow {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+video {
+    position: absolute;
+    width: 400px;
+    height: 300px;
+   margin-bottom: 200px;
+   margin-right: 40px;
+}
+
+/* Footer */
+footer {
+    position: relative;
+    padding: 55px 0;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer ul li {
+    margin-right: 30px;
+    color: #aaa;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 2.5;
+}
+
+footer ul li a {
+    color: #fff;
+    transition: color 0.6s;
+}
+
+footer ul li a:hover {
+    color: #aaa;
+}
+
+/* men item bottom border */
+.desktop-main-menu ul li b::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #fff;
+    transform: scaleX(0);
+    transition: transform 0.6s cubic-bezier(0.19, 1, 0.22,1);
+    transform-origin: right center;
+}
+
+.desktop-main-menu ul li b:hover::after {
+    transform: scaleX(1);
+    transform-origin: left center;
+    transition-duration: 0.4s;
+}
+
+.IMG-1 {
+    position: absolute;
+    right: 20px;
+    bottom: 50px;
+    width: 30%;
+    height: 20%;
+    display: block;
+    height: auto;
+}
+
+.IMG-2 {
+    position: absolute;
+    right: 20px;
+    bottom: 50px;
+    width: 30%;
+    height: 20%;
+    display: block;
+    height: auto;
+}
+
+.IMG-3 {
+    position: absolute;
+    right: 5px;
+    bottom: 400px;
+    width: 30%;
+    height: 20%;
+    display: block;
+    height: auto;
+}
+
+.img-4 {
+    position: absolute;
+    left: 800px;
+    top: 120px;
+    width: 70%;
+    height: 20%;
+    display: block;
+    height: auto ;
+}
+
+.text-1 {
+    position: relative;
+    bottom: 80px;
+    color: #700;
+
+}
+
+.text-2 {
+    position: relative;
+    bottom: 70px;
+    font-size: 16px;
+    
+}
+
+.text-3 {
+    position: relative;
+    bottom: 20px;
+    color: #700;
+}
+
+.text-4 {
+    position: relative;
+    bottom: 10px;
+    font-size: 16px;
+} 
+
+.text-5 {
+    position: relative;
+    bottom: 100px;
+    color: #700;
+
+}
+
+.text-6 {
+
+    position: relative;
+    bottom: 85px;
+    color: #fff;
+    font-size: 12px;
+
+}
+
+.text-7 {
+    position: relative;
+    bottom: 10px;
+    color: #700;
+
+}
+
+.text-8 {
+    position: relative;
+    bottom: 1px;
+    color: #fff;
+    font-size: 12px;
+}
+
+.text-9 {
+    position: relative;
+    bottom: 50px;
+    left: 10px;
+    color: #fff;
+}
+
+.text-10 {
+    position: relative;
+    bottom: 200px;
+    left: 700px;
+    color: #700;
+}
+
+.text-11 {
+    position: relative;
+    bottom: 180px;
+    left: 700px;
+}
+
+table  {
+    position: relative;
+    border: 1px solid #ccc;
+    font-family: arial, sans-serif;
+    font-weight: 600;
+    width: 40%;
+    bottom: 580px;
+    left: 300px;
+} 
+
+table tr {
+    padding: 15px;
+    background-color: #191818;
+    border: 1px solid #ccc;
+}
+.my-table {
+    position: absolute;
+    bottom: 380px;
+    left: 20%;
+}

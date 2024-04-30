@@ -1,0 +1,174 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.showcase {
+    position: absolute;
+    background-image: url('../imgs/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: 10;
+    justify-content: space-between;
+  }
+  
+  p{
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    
+  }
+  
+  
+  .showcase.active {
+    right: 300px;
+    background-color: aliceblue;
+  }
+  header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    text-transform: uppercase;
+    cursor: pointer;
+    color: rgb(253, 253, 253);
+    font-size: 27px;
+    font-style:italic;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.2s;
+    font-weight: bold;
+      }
+      
+    .logo:hover {
+        letter-spacing: 3px;
+        font-size: 34;
+      }
+  
+  
+  .toggle{
+      position: relative;
+      width: 60px;
+      height: 60px;
+      background: url('../imgs/list.png');
+      background-repeat: no-repeat;
+      background-size: 30px;
+      background-position: center;
+      cursor: pointer;
+      
+      
+  }
+  .toggle.active{
+      background: url('../imgs/remove.png');
+      background-repeat: no-repeat;
+      background-size: 30px;
+      background-position: center;
+      cursor: pointer;
+  }
+  .main
+  {
+    text-align: center;
+    background-color:rgba(100, 132, 186, 0.5);
+    background-position: center;
+    margin: 0% 7% 0% 7%;
+    display: block;
+    border-radius:15px;
+  }
+  .main .part1{
+    text-align: center;
+    background-color:white;
+    padding-bottom: 3%;
+    margin: 1% 0% 7% 1%;
+    display: inline-block;
+    border-radius:15px;
+    float: left;
+    width: 60%;
+    
+  }
+  .main .part2{
+    text-align: center;
+    background-color:rgb(141 169 212);
+    margin: 1% 0% 4% 1%;
+    display: inline-block;
+    border-radius:15px;
+    width:35%;
+
+    
+  }
+  
+  h1{
+    text-align: center;
+    display: block;
+    padding-top: 7px;
+    font-size: 24px;
+    color:rgb(16, 17, 57);
+  }
+  .part1 video{
+    border-radius:300px;
+    height: 300px;
+    width: 380px;
+    margin: 0% 0% 0% 0%;
+ }
+.atmo{
+    text-align: left;
+    color:rgb(46, 46, 114);
+    margin-left:10px ;
+    
+}
+
+.menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu ul {
+  position: relative;
+  list-style: none;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  font-size: 24px;
+  color: black;
+}
+th, td {
+  border: 2px double rgb(0, 0, 0);
+  border-collapse: collapse;
+  padding: 0% 1% 0% 0%;
+}
+table{
+  border: 2px double rgb(0, 0, 0);
+  border-collapse: collapse;
+  margin: 3% 10% 5% 10%;
+}
+
+.menu ul li a:hover {
+  color: powderblue;
+}
+@media(max-width:891px){
+    .showcase, .showcase header{
+        padding:40px;
+    }
+}
+
+

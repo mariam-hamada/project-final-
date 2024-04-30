@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    position: relative;
+    display: flex;
+    background-image: url(../imgs/WhatsApp\ Image\ 2024-04-30\ at\ 21.18.50.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+   
+}
+.wapper{
+
+    margin: 300px auto;
+    width: 80%;
+    padding: 50px;
+}
+img{
+    max-width: 320px;
+    position: relative;
+    top: 90px;
+    border: 3px solid  #fff;
+    border-radius: 10px;
+    margin-right: 5px; 
+
+} 
+.test{
+    padding: 30vh;
+    
+}
+.test1{
+    padding: 30vh;
+
+}
+.test2{
+    padding: 30vh;
+
+}
+.test3{
+    padding: 30vh;
+
+}
+
+.test4{
+    padding: 30vh;
+
+}
+
+.test5{
+    padding: 30vh;
+
+}
+.test6{
+    padding: 30vh;
+
+}
+p , h2{
+    color: #fff ;
+}
+h2{
+    font-size: 4vh;
+}
+
+
+
+
+
+    
+
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header {
+    position: fixed;
+    width: 95%;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+}
+
+header .logo {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.container {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.container .btn {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 140px;
+    height: 40px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .btn a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    padding: 10px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    overflow: hidden;
+    color: #fff;
+    font-weight: 400;
+    z-index: 1;
+    transition: 0.5s;
+    backdrop-filter: blur(15px);
+}
+
+.container .btn:hover a {
+    letter-spacing: 3px;
+}
+
+.container .btn a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.15), transparent);
+    transform: skewX(45deg) translate(0);
+    transition: 0.5s;
+    filter: blur(0px);
+}
+
+.container .btn:hover a::before {
+    transform: skewX(45deg) translate(200px);
+}
+
+.container .btn::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    bottom: -5px;
+    width: 30px;
+    height: 10px;
+    background: #f00;
+    border-radius: 10px;
+    transition: 0.5s;
+    transition-delay: 0.5;
+}
+
+.container .btn:hover::before {
+    bottom: 0;
+    height: 50%;
+    width: 80%;
+    border-radius: 30px;
+}
+
+.container .btn::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    top: -5px;
+    width: 30px;
+    height: 10px;
+    background: #f00;
+    border-radius: 10px;
+    transition: 0.5s;
+    transition-delay: 0.5;
+}
+
+.container .btn:hover::after {
+    top: 0;
+    height: 50%;
+    width: 80%;
+    border-radius: 30px;
+}
+
+.container .btn:nth-child(1)::before,
+.container .btn:nth-child(1)::after {
+    background: #ff1f71;
+    box-shadow: 0 0 5px #ff1f71, 0 0 15px #ff1f71, 0 0 30px #ff1f71, 0 0 60px #ff1f71;
+}
+
+.container .btn:nth-child(2)::before,
+.container .btn:nth-child(2)::after {
+    background: #2db2ff;
+    box-shadow: 0 0 5px #2db2ff, 0 0 15px #2db2ff, 0 0 30px #2db2ff, 0 0 60px #2db2ff;
+}
+
+.container .btn:nth-child(3)::before,
+.container .btn:nth-child(3)::after {
+    background: #1eff45;
+    box-shadow: 0 0 5px #1eff45, 0 0 15px #1eff45, 0 0 30px #1eff45, 0 0 60px #1eff45;
+}

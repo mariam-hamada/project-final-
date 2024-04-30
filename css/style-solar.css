@@ -1,0 +1,396 @@
+body
+{
+    background-color:rgba(3, 15, 41, 0.945);
+
+}
+.sec1 .top a
+{
+    position: relative;
+    bottom: 1080px;
+    font-weight: 600;
+    color: #f5f5e6ea;
+    text-shadow:2px 2px  rgba(119, 4, 185, 0.849);
+    padding: 100px 20px;
+    text-decoration: none;
+    font-size: 29px;
+    opacity: 0.9;
+}
+.sec1 .top a:hover
+{
+    opacity: 0.6;
+}
+#logo {
+    position: absolute;
+    width: 5%;
+    left: 1750px;
+    bottom: 860px;
+}
+.sec1
+{
+    position: static;
+    opacity: 0.98;
+    width: 1890px;
+    height: 1000px;
+
+}
+.sec1 .slideshow img 
+{
+    max-width: 100%;
+}
+
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 47%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 25px;
+    position: absolute;
+    top: 50px;
+    left: 900px;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+.sec1 .travel
+{
+    position: absolute;
+    top: 500px;
+    padding: 30px;
+    background-color: rgba(4, 30, 85, 0.829);
+    color: rgba(225, 230, 235, 0.938);
+    height: 590px;
+    width: 580px;
+    
+}
+
+.sec1 p
+{
+    font-size: 20px;
+    opacity: 0.8;
+}
+.sec1 h2
+{
+    font-size: 40px;
+}
+.sec1 h2 span
+{
+    font-size: 60px;
+}
+.sec2
+{
+    position: sticky;
+    height: 3000px;
+    width:1890px;
+    ;
+    background-image: url(../imgs/b1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+.sec2 h2
+{
+    position: absolute;
+    top: 44px;
+    left: 500px;
+    color:rgb(211, 157, 40);
+    font-size: 60px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 160px;
+    opacity: 1;
+    text-shadow: 2px 2px #ff0000;
+
+   
+}
+.sec2 .work
+{
+  position: absolute;
+  width: 1800px;
+  height: 800px;
+  background: rgba(184, 183, 235, 0.555);
+  top:60px;
+  left: 35px;
+  border-radius: 60px;
+  
+}
+.sec2 .f1
+{
+    color:rgba(0, 5, 8, 0.87);
+    background-color: rgba(231, 222, 211, 0.658);
+    width: 850px;
+    height: 400px;
+    position: absolute;
+    top: 300px;
+    left: 90px;
+    border-radius: 20px;
+}
+
+.sec2 .f1:hover
+{
+    top: 290px;
+    width: 870px;
+    height: 420px;
+}
+.sec2 .f1 p
+{
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 16px;
+    text-align: center;
+    line-height: 45px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.sec2 .f1 img
+{
+    position: absolute;
+    width: 610px;
+    border-radius: 20px;
+    opacity: 0.99;
+    left: 1000px;
+    top: 2px;
+}
+.sec2 .work2
+{
+    position: absolute;
+    width: 1000px;
+    height: 1010px;
+    background: rgba(184, 183, 235, 0.555);
+    top:900px;
+    left: 35px;
+    border-radius: 60px;
+
+}
+.sec2 .f2 
+{
+    color:rgba(0, 5, 8, 0.87);
+    background-color: rgba(231, 222, 211, 0.658);
+    width: 850px;
+    height: 400px;
+    position: absolute;
+    top: 950px;
+    left: 90px;
+    border-radius: 20px;
+}
+.sec2 .f2 h3
+{
+    font-size: 30px;
+    font-style: italic;
+    padding-left: 30px;
+    color: rgb(110, 17, 197);
+}
+.sec2 .f2 p
+{
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 16px;
+    text-align: center;
+    line-height: 45px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.sec2 .f2 img
+
+{
+    position: absolute;
+    width: 850px;
+    border-radius: 20px;
+    opacity: 0.99;
+    top: 410px;
+}
+.sec2 .work3
+{
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    background: rgba(184, 183, 235, 0.432);
+    top:900px;
+    right: 35px;
+    border-radius: 60px;
+    background-image: url(../imgs/monyu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    
+
+}
+
+.sec2 .f3
+{
+    color:rgba(0, 5, 8, 0.87);
+    background-color: rgba(231, 222, 211, 0.658);
+    width: 750px;
+    height: 350px;
+    position: absolute;
+    top: 950px;
+    left: 1080px;
+    border-radius: 20px;
+    
+}
+
+.sec2 .f3 h3
+{
+    font-size: 30px;
+    font-style: italic;
+    padding-left: 30px;
+    color: rgb(110, 17, 197);
+}
+
+.sec2 .f3 p
+{
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 16px;
+    text-align: center;
+    line-height: 45px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.sec2 .work4
+{
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    background: rgba(184, 183, 235, 0.555);
+    top:1410px;
+    right: 35px;
+    border-radius: 60px;
+    background-image: url(../imgs/backkkkkk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+
+}
+
+.sec2 .f4
+{
+    color:rgba(0, 5, 8, 0.87);
+    background-color: rgba(231, 222, 211, 0.658);
+    width: 750px;
+    height: 350px;
+    position: absolute;
+    top: 1500px;
+    left: 1080px;
+    border-radius: 20px;
+    
+}
+
+.sec2 .f4 h3
+{
+    font-size: 30px;
+    font-style: italic;
+    padding-left: 35px;
+    color: rgb(110, 17, 197);
+}
+
+.sec2 .f4 p
+{
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 16px;
+    text-align: center;
+    line-height: 45px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.sec2 #ve
+{
+    font-size: 45px;
+    position: absolute;
+    top: 1950px;
+    left: 250px;
+}
+
+.sec2 .video
+{
+    position: relative;
+    top: 2100px;
+    left: 300px;
+    width: 500px;
+    
+}
+.sec2 #bo
+{
+position: relative;
+top: 2000px;
+width: 9%;
+left: 10px;
+}
+.sec2 #bo:hover
+{
+    width: 12%;
+}
+.sec2 #ab
+{
+    position: relative;
+    top: 1920px;
+    color:rgb(211, 157, 40);
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 160px;
+    opacity: 1;
+    text-shadow: 2px 2px #ff0000;
+
+}
+.sec2 #boo
+{
+position: relative;
+top: 1710px;
+width: 9%;
+left: 1650px;
+}
+.sec2 #boo:hover
+{
+    width: 12%;
+}
+.sec2 #abb
+{
+    position: relative;
+    top: 1648px;
+    padding-left: 1400px;
+    color:rgb(211, 157, 40);
+    font-size: 35px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 160px;
+    opacity: 1;
+    text-shadow: 2px 2px #ff0000;
+
+}
+
+@media screen and (max-width: 768px) {
+    /* CSS rules for screens smaller than 768 pixels wide */
+}
+
+
+

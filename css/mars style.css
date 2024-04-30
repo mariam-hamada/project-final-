@@ -1,0 +1,227 @@
+
+@import url('https://fonts.googleapis.com/css2?fmily=Familjen+Grotesk:wght@400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+*, *::before, *::after{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+body{
+font-family:'Familjen Grotesk',sans-serif;
+background: #000000;
+color: #fff;
+
+
+
+}
+
+
+
+
+a{
+    text-decoration: none;
+    color: #fff;
+
+}
+ul{
+    list-style: none;
+}
+/*header/navbar*/
+.main-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    height: 100px;
+    padding: 0 30px;
+    
+
+}
+/*logo*/
+.logo{
+
+   
+    width: 0px;
+    height:auto;
+    position: relative;
+    transform: scale(0.5);
+
+}
+/*desktop menu*/
+.desktop-main-menu{
+    margin-right: 60px;
+    
+    }
+    .desktop-main-menu ul{
+    
+        display: flex;
+    
+    }
+    .desktop-main-menu ul li{
+        position: relative;
+        margin-right: 30px;
+        padding-bottom: 2px;
+    
+    }
+    /*menu item bottom border*/
+    .desktop-main-menu ul li a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #fff;
+    transform: scaleX(0);
+    transition: transform 0.2s ;
+    }
+    .desktop-main-menu ul li a:hover::after{
+    
+        transform: scaleX(1);
+    
+    }
+    /* part1*/
+.part-1{
+   background-image: url(../imgs/mars_report_image_clean-web.jpg); 
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+}
+    .head1{
+        color:bisque;
+        text-align: start;
+      padding-top: 150px;
+      padding-left: 60px;
+      font-size: 25px;
+      text-decoration: underline;
+    }
+    .part-1 p{
+        color: bisque;
+        padding-left: 60px;
+        padding-top: 10px;
+    }
+    /* part2 */
+    .part-2{
+        background-color: #0a0909;
+       height: auto;
+        margin-top: -80px;
+    }
+    .container{
+        width: 80%;
+        margin: 80px auto;
+
+    }
+    .container h1{
+        padding: 60px 0;
+        color: #fff;
+        font-size: 44px;
+        text-align: center;
+    }
+ .row{
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+ }
+ .col{
+    flex-basis: 50%;
+    min-width: 250px;
+}
+.feature-video{
+    width: 83%;
+    margin: auto;
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.information{
+    
+    margin: 20px 0;
+    align-items: center;
+    
+}
+.information ul li {
+
+    transition:   transform 1s ease, box-shadow 1s ease;
+
+    transform-style: preserve-3d;
+    text-decoration: none;
+
+    /* margin: 8px; */
+    padding: 4px 10px;
+
+
+
+}
+.information ul li:hover{
+
+    transform: rotateX(10deg)   translateZ(20px);
+    box-shadow: 0 0 20px burlywood ;
+}
+#imgo{
+    
+    width: 150px;
+    height:auto;
+    margin-top: 25px;
+
+   
+}
+#link{
+
+    text-decoration: underline;
+    text-decoration-style: #aaa;
+
+}
+
+    /*footer*/
+    footer{
+
+        position: relative;
+        padding: 2px 0;
+        margin: 2px;
+        height: .5;
+        
+        
+        
+        }
+        footer ul{
+        
+        
+            display: flex;
+            
+        
+            justify-content: center;
+            align-items: center;
+        
+        
+        }
+        footer ul li{
+        
+        
+        
+            margin-right: 30px;
+            color: #aaa;
+            text-transform: uppercase;
+            font-size: 13px;
+            line-height: 2.5;
+        }
+        footer ul li a{
+        
+        
+            color:#fff;
+            transition: color 0.6s;
+            
+        }
+        footer ul li a:hover{ /* let the word when the mouse go around it convert it colore to gray*/
+            color: #aaa;
+        }

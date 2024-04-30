@@ -1,0 +1,314 @@
+bode{
+    height: auto;
+}
+
+
+.main-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    height: 100px;
+    padding: 0 30px;
+    
+
+}
+.logo{
+
+    width: 60px;
+    height:auto;
+
+
+}
+.desktop-main-menu{
+margin-right: 60px;
+
+}
+.desktop-main-menu ul{
+
+    display: flex;
+
+}
+.desktop-main-menu ul li{
+    position: relative;
+    margin-right: 30px;
+    padding-bottom: 2px;
+   color: #000;
+}
+
+.desktop-main-menu ul li a::after {
+content: '';
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 1px;
+background: #fff;
+transform: scaleX(0);
+transition: transform 0.2s ;
+}
+.desktop-main-menu ul li a:hover::after{
+
+    transform: scaleX(1);
+
+}
+
+
+.content{
+    position: relative;
+    text-align: center;
+    padding-top: 20px;
+}
+.container{
+    position: relative;
+    background: #ddd;
+    width: 100%;
+}
+ 
+.container .image-list{
+display: flex;
+flex-wrap: wrap;
+gap: 15px;
+justify-content: center;
+padding: 10px;
+}
+.container .image-list  .image{
+    height: 250px;
+    width: 350px;
+    border: 10px solid #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0, .1);
+    overflow: hidden;
+    cursor: pointer;
+}
+.container,.image-list,.image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .2s linear;
+}
+.container,.image-list,.image:hover img{
+    transform: scale(1.1);
+}
+.container .popup-image{
+    position: fixed;
+    top: 0; left: 0;
+    background: rgba(0,0,0, .9);
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    display: none;
+}
+ .container,.popup-image span{
+    position: absolute;
+    top: 0; right: 10px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #fff;
+    cursor: pointer;
+    z-index: 100;
+ }
+ section{
+    margin-left: 14%;
+ }
+ .container,.popup-image img{
+position: absolute;
+top: 50% ; left: 50%;
+transform: translate(-50%, -50%);
+border: 5px solid #fff;
+border-radius: 5px;
+width: 750px;
+object-fit: cover;
+ }
+.article-header{
+    margin-bottom: 20px;
+}
+.article-headline{
+margin-bottom: 35px;
+}
+.article-headline-title ,.article-headline-des {
+    color: #000;
+font-weight: 400;
+margin-left: 0;
+}
+.article-headline-title {
+color: #2b2c2d;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 38px;
+font-weight: 700;
+letter-spacing: 0;
+line-height: 1.211;
+padding-bottom: 0;
+position: relative;
+right: 56px;
+}
+.article-headline-des {
+    color: #2b2c2d;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    line-height: 1.5;
+    margin-top: 15px;
+}
+.article-content{
+    color: #333;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+    letter-spacing: .1px;
+    line-height: 1.632;
+    width: 550px;
+    position: relative;
+    left: 460px;
+}
+.Listicle-purple{
+    border-color: #9544ed;
+}
+.Listicle-content{
+border: 8px solid #007bc8;
+margin: 30px auto;
+padding: 0;
+}
+.Listicle-content .Listicle-content-title h3{
+    font-size: 28px;
+    letter-spacing: 0;
+    margin: 0 0 20px;
+    text-align: left;
+    padding-right: 10px;
+}
+.img-1{
+    width:100%;
+}
+ .Listicle-content-text p{
+    font-size: 19px;
+    text-align: left;
+    border-right:50px ;
+    /* padding-right: 50px; */
+position: relative;
+left: 5px;
+}
+.Richtext p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: .1px;
+    line-height: 1.429;
+    line-height: 1.5;
+}
+.article-content p{
+    color: #333;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: .1px;
+    line-height: 1.632;
+    width: 500px;
+}
+.p-2{
+    text-align: left;
+}
+.p-3{
+    margin-top: 35px;
+}
+.Listicle-blue{
+    border-color: #007bc8;
+  width: 521px;
+}
+.video-caption{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 1.214;
+    border-left: 10px solid #fc0;
+    position: relative;
+     right: -7px; 
+text-align:left;
+padding-left: 5px;
+}
+.vid{
+    width: 531px;
+    position: relative;
+    right: -15px;
+}
+
+#planet-table {
+    border-collapse: collapse;
+    width: 70%;
+    margin: 0 auto;
+  }
+  .table-caption{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 1.214;
+    border-left: 10px solid #fc0;
+    position: relative;
+     right: -7px; 
+text-align:left;
+padding-left: 5px;}
+  
+  #planet-table th,
+  #planet-table td {
+    border: 1px solid black;
+    padding: 10px 20px;
+    text-align: left;
+  }
+  
+  #planet-table th {
+    background-color: #f2f2f2;
+  }
+  
+  #planet-table tfoot {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+    footer{
+
+        position: relative;
+        padding-bottom: 20px;
+        margin: 20px;
+        
+        
+        
+        }
+        footer ul{
+        
+        
+            display: flex;
+            
+        
+            justify-content: center;
+            align-items: center;
+        
+        
+        }
+        footer ul li{
+        
+        
+        
+            margin-right: 30px;
+            color: #aaa;
+            text-transform: uppercase;
+            font-size: 13px;
+            line-height: 2.5;
+        }
+        footer ul li a{
+        
+        
+            color:#fff;
+            transition: color 0.6s;
+            
+        }
+        footer ul li a:hover{ /* let the word when the mouse go around it convert it colore to gray*/
+            color: #aaa;
+        }
+        .footer{
+            background: #000;
+            height: 12px;
+            width: 100%;
+            position: relative;
+            right: 20px;
+        }

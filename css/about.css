@@ -1,0 +1,318 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body
+{
+    background-color: rgb(236, 191, 142);
+}
+.sec1 {
+    position: relative;
+    width: 1900px;
+    height: 1000px;
+    background-image: url(../imgs/about.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#logo {
+    position: absolute;
+    width: 8.3%;
+    left: 1700px;
+    bottom: 820px;
+}
+
+#who {
+    position: absolute;
+    left: 650px;
+    top: 50px;
+    font-size: 75px;
+    color: rgba(202, 119, 10, 0.89);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.wave-animation {
+    animation: wave 2s infinite;
+}
+
+@keyframes wave {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+.top a
+{
+    
+    color: #fff9f9;
+    padding: 100px 20px;
+    text-shadow: 2px 2px rgb(79, 13, 105);
+    text-decoration: none;
+    font-size: 29px;
+    opacity: 0.8;
+}
+
+.top a:hover 
+{
+    opacity: 0.6;
+}
+#ab
+{
+    color: blueviolet;
+    
+}
+.sec2
+{
+    position: relative;
+    width: 1895px;
+    height: 1800px;
+}
+.sec2 h2
+{
+    text-align: center;
+    font-size: 80px;
+    
+}
+.sec2 pre
+{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 4px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.sec2 #per1
+{
+    position: absolute;
+    left: 50px;
+}
+.sec2 #per1 img
+{
+    width: 45%;
+    border-radius: 5px
+}
+.sec2 #per1 h1
+{
+    color: #b67015;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 40px;
+}
+.sec2 #per1 ul
+{
+    color: #0e0101;
+    font-size: 20px;
+}
+
+
+
+
+.sec2 #per2
+{
+    position: absolute;
+    left: 500px;
+}
+.sec2 #per2 img
+{
+    width: 38%;
+    border-radius: 5px
+}
+.sec2 #per2 h1
+{
+    color: #b67015;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 40px;
+}
+.sec2 #per2 ul
+{
+    color: #0e0101;
+    font-size: 20px;
+}
+
+
+.sec2 #per3
+{
+    position: absolute;
+    left: 950px;
+}
+.sec2 #per3 img
+{
+    width: 48%;
+    border-radius: 5px;
+}
+.sec2 #per3 h1
+{
+    color: #b67015;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 40px;
+}
+.sec2 #per3 ul
+{
+    color: #0e0101;
+    font-size: 22px;
+}
+
+
+.sec2 #per4
+{
+    position: absolute;
+    left: 1450px;
+}
+.sec2 #per4 img
+{
+    width: 60%;
+    border-radius: 5px
+}
+.sec2 #per4 h1
+{
+    color: #b67015;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 40px;
+}
+.sec2 #per4 ul
+{
+    color: #0e0101;
+    font-size: 22px;
+}
+
+
+
+.sec2 #per5
+{
+    position: absolute;
+    left: 50px;
+    top: 1000px;
+}
+.sec2 #per5 img
+{
+    width: 90%;
+    border-radius: 5px
+}
+.sec2 #per5 h1
+{
+    color: #b67015;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 40px;
+}
+.sec2 #per5 ul
+{
+    color: #0e0101;
+    font-size: 20px;
+}
+
+
+
+
+.sec2 #per6
+{
+    position: absolute;
+    left: 500px;
+    top: 1000px;
+
+}
+.sec2 #per6 img
+{
+    width: 45%;
+    border-radius: 5px
+}
+.sec2 #per6 h1
+{
+    color: #b67015;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 40px;
+}
+.sec2 #per6 ul
+{
+    color: #0e0101;
+    font-size: 20px;
+}
+
+
+.sec2 #per7
+{
+    position: absolute;
+    left: 950px;
+    top: 1000px;
+
+}
+.sec2 #per7 img
+{
+    width: 50%;
+    border-radius: 5px
+}
+.sec2 #per7 h1
+{
+    color: #b67015;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 40px;
+}
+.sec2 #per7 ul
+{
+    color: #0e0101;
+    font-size: 22px;
+}
+
+
+.sec2 #per8
+{
+    position: absolute;
+    left: 1450px;
+    top: 1000px;
+
+}
+.sec2 #per8 img
+{
+    width: 65%;
+    border-radius: 5px
+}
+.sec2 #per8 h1
+{
+    color: #b67015;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 40px;
+}
+.sec2 #per8 ul
+{
+    color: #0e0101;
+    font-size: 22px;
+}
+
+
+
+.fa 
+    {
+        position: relative;
+        top: 1200px;
+        left: 800px;
+    }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  .fa-instagram 
+  {
+    top: 1208px;
+  }
+  
+  
+  @media (max-width:960px)  {
+    
+    .desktop-main-menu{
+
+        font-size: xsmall;
+    }
+}
+@media screen and (max-width: 768px) {
+    /* CSS rules for screens smaller than 768 pixels wide */
+}

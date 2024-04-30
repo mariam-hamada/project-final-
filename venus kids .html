@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>doc</title>
+        <link rel="stylesheet" href="./css/venus kids.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+        <body>
+            <header>
+               <nav class="navbar-MH">
+                <div class="navdiv-MH">
+                    <div class="logo-MH"> <img src="imgs/logo.jpg"></div>
+                    <ul>
+                        <li><a href="main page.html">HOME </a></li>
+                        
+                        <li><a href="#contact us ">CONTACT US </a></li>
+                        <li><a href="about.html">ABOUT US</a></li>
+                        <button><a href="login.html">log in</a></button>
+                      
+                    </ul>
+                </div>
+               </nav>
+                </header>
+                <h1>Welcome to Venus</h1>
+                <div class="gallery-wrap">
+                    <img src="imgs/arrow.png" id="backBtn">
+                    <div class="gallery">
+                        <div>
+                            <span><img src="imgs/images (2).jpg"></span>
+                            <span><img src="imgs/download (3).jpg"></span>
+                            <span><img src="imgs/download (1).jpg"></span>
+                        </div>
+                         <div>
+                            <span><img src="imgs/images (1).jpg"></span>
+                            <span><img src="imgs/download(4).jpg"></span>
+                            <span><img src="imgs/download(5).jpg"></span>
+                        </div>
+                     </div>
+                    <img src="imgs/arrowgo.png" id="nextBtn">
+                </div>
+                <script>
+                    let scrollContainer = document.querySelector(".gallery");
+                    let backBtn = document.getElementById("backBtn");
+                    let nextBtn = document.getElementById("nextBtn");
+
+                    scrollContainer.addEventListener("wheel", (evt)=>{
+                        evt.preventDefault();
+                        scrollContainer.scrollLeft +=evt.deltaY;
+                        scrollContainer.style.scrollBehavior = "auto";
+                    });
+                    nextBtn.addEventListener("click",()=>{
+                        scrollContainer.style.scrollBehavior = "smooth";
+                        scrollContainer.scrollLeft += 900;
+                    });
+                    backBtn.addEventListener("click",()=>{
+                        scrollContainer.style.scrollBehavior = "smooth";
+                        scrollContainer.scrollLeft += -900;
+                    });
+                </script>
+               <p id="demo-MH">Hello  ... ! are you intrested to see some information about Venus planet?</p>
+        <button onclick="myfunction()" id="readmore">click on </button>
+        <script>
+            function myfunction(){
+                let txt;
+                let person = prompt("can you enter your name,please?","...");
+                if (person == null || person == "") {
+                   txt = "User cancelled the prompt.";}
+                   else{
+                txt= "Hello"+person+"! are you intrested to see some information about Venus planet?"}
+                document.getElementById("demo-MH").innerHTML = txt;
+            }
+        </script>
+        <section class="about-MH">
+            <div class="main-MH">
+                <img src="imgs/images.jpg">
+                <div class="about-text-MH">
+                   <div class="frame"><p>Venus is the third smallest planet in the solar system, after Mercury and Mars. It is a near twin of Earth in size, mass, and density. Venus's diameter is about 7,521 miles (12,104 kilometers), compared with some 7,926 miles (12,756 kilometers) for Earth.</p></div> 
+                </div>
+            </div>
+        </section>
+        <p class="info-MH">scroll for more informations about Venus planet...</p>
+            <iframe src="https://kids.britannica.com/kids/article/Venus/353895" width="1000" height="500"></iframe>
+              <div class="framee"> <p class="info-MH">Venus looks like a very active planet. It has mountains and volcanoes. Venus is similar in size to Earth. Earth is just a little bit bigger.
+
+                Venus is unusual because it spins the opposite direction of Earth and most other planets. And its rotation is very slow. It takes about 243 Earth days to spin around just once. Because it's so close to the Sun, a year goes by fast. It takes 225 Earth days for Venus to go all the way around the Sun. That means that a day on Venus is a little longer than a year on Venus.</p></div>
+                <video src="imgs/ven.mp4" controls poster="imgs/MIT-Venus-Phosphine-SL.jpg">
+                </video>
+                <div class="container">
+                    <form>
+                        <h3>Give your Feedback</h3>
+                        <div class="id">
+                            <input type="text" placeholder="Full name">
+                            <i class="far fa-user"></i>
+                        </div>
+                        <div class="id">
+                            <input type="email" placeholder="Email address">
+                            <i class="far fa-envelope"></i></div>
+                            <textarea cols="15" rows="5" placeholder="Enter your opinions here.."></textarea>
+        <button>Send</button>
+                        </form>
+                </div>
+            <div class="footercontainer-MH">
+                    <div class="socialicons-MH">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>  
+                    </div>
+                    <div class="footernav-MH">
+                        <ul>
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="#">NEWS</a></li>
+                            <li><a href="#">CONTACT US</a></li>
+                            <li><a href="#"> ABOUT US</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                
+         
+                </body>
+        </html>

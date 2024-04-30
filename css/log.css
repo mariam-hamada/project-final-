@@ -1,0 +1,218 @@
+#f1
+{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(133, 182, 224);
+    font-style: italic ;
+    font-size: 35px;
+    font-weight: 600;
+    position: fixed;
+    left: 1280px;
+    top: 510px;
+    text-shadow: 2px 2px rgba(79, 19, 114, 0.411);
+
+}
+
+#Fname
+{
+    background-color: rgba(238, 224, 224, 0.445);
+    border-radius: 5px;
+    border-color: #d6dad1;
+    width: 270px;
+    height: 25px;
+    font-style: italic;
+    font-weight: 100;
+    color: blueviolet;
+    position: fixed;
+    left: 1420px;
+    top: 525px ;   
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#f2
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(133, 182, 224);
+    font-style: italic ;
+    font-size: 35px;
+    font-weight: 600;
+    position: fixed;
+    left: 1280px;
+    top: 570px;
+    text-shadow: 2px 2px rgba(140, 26, 175, 0.411);
+
+
+}
+
+#email
+{
+    background-color: rgba(238, 224, 224, 0.445);
+    border-radius: 5px;
+    border-color: #d6dad1;
+    width: 270px;
+    height: 25px;
+    font-style: italic;
+    font-weight: 100;
+    color: blueviolet;
+    position: fixed;
+    left: 1420px;
+    top: 585px ;   
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#f3
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(129, 183, 230);
+    font-style: italic ;
+    font-size: 35px;
+    font-weight: 600;
+    position: fixed;
+    left: 1250px;
+    top: 660px;
+    text-shadow: 2px 2px rgba(157, 157, 206, 0.411);
+
+
+}
+
+#pass
+{
+    background-color: rgba(238, 224, 224, 0.445);
+    border-radius: 5px;
+    border-color: #d6dad1;
+    width: 270px;
+    height: 25px;
+    font-style: italic;
+    font-weight: 100;
+    color: blueviolet;
+    position: fixed;
+    left: 1420px;
+    top: 670px ;   
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#f4
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(133, 182, 224);
+    font-style: italic ;
+    font-size: 33px;
+    font-weight: 560;
+    position: fixed;
+    left: 1250px;
+    top: 740px;
+    text-shadow: 2px 2px rgba(157, 157, 206, 0.411);
+
+}
+
+#age
+{
+    background-color: rgba(238, 224, 224, 0.445);
+    border-radius: 5px;
+    border-color: #d6dad1;
+    width: 275px;
+    height: 30px;
+    font-style: italic;
+    font-weight: 800;
+    color: rgba(85, 2, 85, 0.527);
+    position: fixed;
+    left: 1420px;
+    top: 755px ;   
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#f5
+{
+    background-color: rgba(111, 48, 160, 0.774);
+    border-radius: 20px;
+    border-color: #d6dad100;
+    width: 140px;
+    height: 75px;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    position: fixed;
+    left: 1440px;
+    top: 830px ;   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px rgba(157, 157, 206, 0.411);
+
+}
+#f5:hover {
+    opacity: 0.7;
+}
+
+body
+{
+background-image: url("../imgs/Scree.png");
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+}
+#logo
+{
+    position: fixed;
+    width: 5%;
+    left: 1750px;
+    bottom: 860px;
+
+}
+#log {
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    position :fixed;
+    left: 880px;
+    top: 250px;
+    opacity: 0.8;
+    font-size: 40px;
+}
+
+.back
+{
+  position: fixed;
+  top: 435px;
+  left: 1220px;
+  width: 630px;
+  height: 450px;
+  border: 1.9px solid #d6dad17a;
+  border-radius: 80px;
+  background-color: rgba(238, 224, 224, 0.233);
+  margin: 50px auto; 
+
+}
+
+.top
+{
+    position: static;
+    left: auto;
+    top: auto;
+    width: 100%;
+    text-align: center;
+
+}
+
+.top a
+{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+    opacity: 0.5;
+}
+
+.top a:hover 
+{
+    opacity: 0.8;
+
+}
+@media screen and (max-width: 768px) {
+    /* CSS rules for screens smaller than 768 pixels wide */
+}

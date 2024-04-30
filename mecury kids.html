@@ -1,0 +1,88 @@
+
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>doc</title>
+        <link rel="stylesheet" href="./css/mercury kids.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+        <body>
+            <header>
+               <nav class="navbar-MH">
+                <div class="navdiv-MH">
+                    <div class="logo-MH"> <img src="imgs/logo.jpg" alt="logo"></div>
+                    <ul class="nav-Mh">
+                        <li><a href="main page.html">HOME </a></li>
+            
+                        <li><a href="#contact us ">CONTACT US </a></li>
+                        <li><a href="about.html">ABOUT US</a></li>
+                        <button><a href="login.html">log in</a></button>
+                        
+                    </ul>
+                </div>
+               </nav>
+                </header>
+        <h2>Welcome to Mercury</h2>
+        <p id="demo-MH">Hello  ... ! are you intrested to see some information about Mercury planet?</p>
+        <button onclick="myfunction()">click on </button>
+        <script>
+            function myfunction(){
+                let txt;
+                let person = prompt("can you enter your name,please?","...");
+                if (person == null || person == "") {
+                   txt = "User cancelled the prompt.";}
+                   else{
+                txt= "Hello"+person+"! are you intrested to see some information about Mercury planet?"}
+                document.getElementById("demo-MH").innerHTML = txt;
+            }
+        </script>
+        <div class="test-MH"></div>
+        <div class="test1-MH">
+            <div class="frame"><p>Mercury is the smallest planet in our solar system. It's just a little bigger than Earth's Moon. Mercury itself, though, doesn't have any moons. It is the closest planet to the Sun, but it's actually not the hottest.</p></div>s
+             <div class="test2-MH"><img class="img-MH" src="imgs/lol.jpg" alt="solar system"></div>
+             <div class="frame">
+             <h3>Structure and Surface:</h3>
+             <ul class="list-MH" type="disc">
+                <li>Mercury is the smallest planet in our solar system.</li>
+                <li>Mercury is a terrestrial planet. It is small and rocky.</li>
+                <li>Mercury has a thin exosphere.</li>
+                <li> Mercury’s surface can be as hot as 800 degrees F during the daytime and as cold as -300 degrees F during the nighttime. </li></ul></div>
+            </div>
+        </div>
+       <video src="imgs/The Planet Mercury Astronomy and Space for Kids - FreeSchool.mp4" controls poster="imgs/videoframe_1459.png"></video>
+       <h1>Comparison between Mercury and Earth</h1>
+       <table bgcolor="goldenrod" width="1000px" border="3">
+        <tr bgcolor="white"align="center"> <th width="200px"></th><th width="200px">Mercury</th><th width="200px">Earth</th></tr>
+        <tr bgcolor="white"align="center"><td>color</td><td>slate gray</td><td>blue</td></tr>
+        <tr bgcolor="white"align="center"><td>distance from sun</td><td>69.268 million km</td><td>150.52 million km</td></tr>
+        <tr bgcolor="white"align="center"><td>moons</td><td>has no moons</td><td>has one moon</td></tr>
+        <tr bgcolor="white"align="center"><td>radius</td><td>2439.7km</td><td>6371 km</td></tr>
+        <tr bgcolor="white" align="center"><td>temperature of the surface</td><td>can reach 430 degrees Celsius</td><td>can reach 15 degrees Celsius</td></tr>
+       </table>
+       <img class="solar-MH" src="imgs/solar.jpg">
+       <p class="test3-MH">*for more information about Mercury click here: <a class="test4-MH" href="https://spaceplace.nasa.gov/all-about-mercury/en/" target="_blank"><u>learn more</u></a></p>
+  
+                <div class="footercontainer-MH">
+                    <div class="socialicons-MH">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>  
+                    </div>
+                    <div class="footernav-MH">
+                        <ul>
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="#">NEWS</a></li>
+                            <li><a href="#">CONTACT US</a></li>
+                            <li><a href="#"> ABOUT US</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+         
+                </body>
+           
+        </html>
